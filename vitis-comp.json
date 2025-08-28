@@ -1,0 +1,18 @@
+{
+  "name": "app_component",
+  "type": "HOST",
+  "platform": "platform",
+  "domain": "linux_psv_cortexa72",
+  "cpuInstance": "cortex-a72",
+  "cpuType": "cortex-a72",
+  "os": "linux",
+  "sysroot": "/opt/petalinux/2025.1/sysroots/cortexa72-cortexa53-amd-linux",
+  "configuration": {
+    "componentType": "HOST",
+    "hostToolchainConfigurations": []
+  },
+  "domainRealName": "linux_psv_cortexa72",
+  "useSysrootToolchain": true,
+  "sysrootToolchain": "",
+  "applicationFlow": "EMBEDDED"
+}
