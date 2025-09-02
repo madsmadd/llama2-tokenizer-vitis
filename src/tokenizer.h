@@ -12,7 +12,7 @@ private:
 public:
     EmbeddingLoader() : vocab_size(0), embed_dim(0) {}
     
-    bool load(std::string info_file_path, 
+    void load(std::string info_file_path, 
             std::string bin_file_path) {
         
         std::ifstream info_file(info_file_path);
@@ -34,7 +34,6 @@ public:
                       vocab_size * embed_dim * sizeof(float));
         bin_file.close();
         
-        return true;
     }
     
     void printTokenEmbedding(int token_id, int num_values)
